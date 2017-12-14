@@ -162,7 +162,7 @@ nav a:focus {
 }
 /* mens page */
 .home-aream{
-background-image: url('../assets/stripes.jpg');
+	background-image: url('../assets/stripes.jpg');
 	background-size:cover;
 	background-position: center;
 	padding: 10em 0;
