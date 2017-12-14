@@ -1,11 +1,16 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
+
+//window load
+window.onload=function(){
+	
+	
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
+/* window.onclick = function(event) {
 	console.log("test");
   if (!event.target.matches('.dropbtn')) {
 
@@ -18,4 +23,13 @@ window.onclick = function(event) {
       }
     }
   }
-}
+} */
+
+$('#myDropdown a').click(function(){
+	console/lo('chnage class');
+	$('#myDropdown a').removeClass('selected');
+	$(this).addClass('selected');
+	
+});
+
+}//leave
