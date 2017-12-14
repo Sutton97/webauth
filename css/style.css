@@ -1,0 +1,24 @@
+body {
+	height: 200vh;
+}
+
+.content {
+	background: #feeb5b;
+	color: white;
+	text-align: center;
+	padding: 200px;
+}
+
+.parallax-wrapper {
+	height: 450px;
+}
+
+.parallax {
+	position: relative;
+z-index: -1;
+height: 200%;
+background-image: (../assets/bg1.jpg)
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;	
+}
