@@ -5,10 +5,10 @@ toggle between hiding and showing the dropdown content */
 window.onload=function(){
 	
 	
-function myFunction() {
+/* function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
-
+ */
 // Close the dropdown menu if the user clicks outside of it
 /* window.onclick = function(event) {
 	console.log("test");
@@ -24,11 +24,17 @@ function myFunction() {
     }
   }
 } */
-
+$('.dropdown').click(function(){
+	$('#myDropdown').toggle();
+	
+	
+});
 $('#myDropdown a').click(function(){
-	console/lo('chnage class');
+	console.log('change class');
 	$('#myDropdown a').removeClass('selected');
 	$(this).addClass('selected');
+	var size = $(this).data('size');
+	console.log(size);
 	
 });
 
