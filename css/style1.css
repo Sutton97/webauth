@@ -297,12 +297,14 @@ nav a:focus {
 }
 
 #container2 {
-	height:25em;
-	width: 30em;
-	border:2px solid grey;
-	margin: 5rem;
-	margin-right: 30rem;
 	float: right;
+    height: 30em;
+    width: 25em;
+    margin: 5rem;
+    border: 2px solid grey;
+    padding: 1px;
+    position: relative;
+    display: inline-block;
 }
 
 
@@ -310,7 +312,7 @@ nav a:focus {
 .dropbtn {
     background-color: white;
     color: black;
-    padding: 16px;
+    padding-top: 16px;
     font-size: 16px;
     border: black;
     cursor: pointer;
@@ -318,6 +320,8 @@ nav a:focus {
 	border-style: solid;
 	border-radius: 12px;
 	padding: .5em 1.5em;
+    
+    position: absolute;
 	
 }
 
@@ -333,7 +337,9 @@ nav a:focus {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
-    display: inline-block;
+	padding: 13em;
+    padding-left: 65em;
+    position: absolute;
 	
 }
 
