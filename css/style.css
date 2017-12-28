@@ -22,3 +22,8 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;	
 }
+
+#scent {
+	width: 5px;
+	height: 10px;
+}
