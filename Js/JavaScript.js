@@ -40,18 +40,3 @@ $('#myDropdown a').click(function(){
 
 }//leave
 
-window.onload=function(){
-var imgList = ["scentblue2.jpeg","scentred2.jpeg", "scentpink2.jpegg" ];
-
-var myButton = document.getElementById("myButton");
-myButton.onclick = function( e ){
-    var elem = e.target,
-    imageIndex = parseInt(elem.dataset.img,10);
-    if( imageIndex <= (imgList.length -1) ) {
-        elem.src = imgList[imageIndex++];
-        elem.dataset.img = imageIndex;
-    } else {
-        elem.src = imgList[0];
-        elem.dataset.img = 1;
-    }
-}
