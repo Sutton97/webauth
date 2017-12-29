@@ -30,6 +30,7 @@ h1 {
 	font-size:2.0rem;
 	margin-top: 0;
 	font-family: Century Gothic;
+	letter-spacing: 5px;
 }
 
 .title{
@@ -88,6 +89,25 @@ h1 {
 
 
 .button1-small:hover,.button1-small:focus {
+	background:#fffaef;
+	color: #232323;
+	border-color: #ooff6c;
+}
+
+.button3{
+	display: inline-block;
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 12px;
+	border-color; black;
+	padding: .5em 1.5em;
+	color: white;
+}
+
+.button3:hover{
 	background:#fffaef;
 	color: #232323;
 	border-color: #ooff6c;
@@ -303,6 +323,7 @@ nav a:focus {
     margin: 5rem;
     border: 2px solid grey;
     padding: 1px;
+	padding-right: 20px;
     position: relative;
     display: inline-block;
 }
@@ -432,4 +453,14 @@ background-color:green;
 #img1{
 	width: 20em;
 	height: 23em;
+}
+
+#footer{
+	height: 70px;
+	width: 100%;
+	color; #fff;
+	background-color:#ADD8E6;
+	text-align: centre;
+	position: absolute;
+	
 }
