@@ -477,23 +477,31 @@ div
 /*the image and div have a mix-blend-mode of multiply, this multiplies the image colour and div colour together for the final colour*/
 .image
 {	
-	padding=0;
-	margin=0;
-	width:600px;
-	height:350px;
+	padding:0;
+	margin:0;
+	width:23em;
+	height:26em;
 }
 
-#blue
-{
-	background-color:blue;	
-	font-size:100px;
+#blue{
+	background-color:#ADD8E6;	
+	font-size:2em;
 	text-align:center;
 }
 
-#red
-{
-	background-color:red;	
-	font-size:100px;
+#red{
+	background-color:#d2204d;	
+	font-size:2em;
 	text-align:center;
 }
 
+#purple{
+	background-color:#3b0b30;	
+	font-size:2em;
+	text-align:center;
+}
+#pink {
+	background-color:#FFB6C1;	
+	font-size:2em;
+	text-align:center;
+}

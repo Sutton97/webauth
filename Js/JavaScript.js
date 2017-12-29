@@ -46,20 +46,37 @@ window.onload = init;
 var img;
 function init() 
 {
-	console.log("moo");
+	console.log("scent");
 	var blue = document.getElementById("blue");
 	var red = document.getElementById("red");
+	var purple = document.getElementById("purple");
+	var pink = document.getElementById("pink");
+	
 	img = document.getElementById("image");
 	blue.onclick = blueFunction;
 	red.onclick = redFunction;
-	console.log(blue,red);
+	purple.onclick = purpleFunction;
+	pink.onclick = pinkFunction;
+	
+	console.log(blue,red,purple,pink);
 }
 function blueFunction(){
-	console.log("moo2");
-	img.src = "assets/scentblue1"+ imageNumber + ".jpeg";
+	console.log("blue");
+	img.src = "assets/scentblue1"+ ".jpeg";
 }
 	
 function redFunction(){
-	console.log("moo3");
-	img.src = "assets/scentred1"+ imageNumber + ".jpg";
+	console.log("red");
+	img.src = "assets/scentred1"+ ".jpeg";
 }
+
+function purpleFunction(){
+	console.log("purple");
+	img.src = "assets/scentpurple1"+ ".jpeg";
+}
+
+function pinkFunction(){
+	console.log("pink");
+	img.src = "assets/scentpink1"+ ".jpeg";
+}
+//add purple and pink
