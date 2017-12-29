@@ -40,3 +40,26 @@ $('#myDropdown a').click(function(){
 
 }//leave
 
+
+//Customiser
+window.onload = init;
+var img;
+function init() 
+{
+	console.log("moo");
+	var blue = document.getElementById("blue");
+	var red = document.getElementById("red");
+	img = document.getElementById("image");
+	blue.onclick = blueFunction;
+	red.onclick = redFunction;
+	console.log(blue,red);
+}
+function blueFunction(){
+	console.log("moo2");
+	img.src = "assets/scentblue1"+ imageNumber + ".jpeg";
+}
+	
+function redFunction(){
+	console.log("moo3");
+	img.src = "assets/scentred1"+ imageNumber + ".jpg";
+}
