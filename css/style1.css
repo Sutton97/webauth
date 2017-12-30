@@ -20,17 +20,19 @@ img {
 	height:13rem;
 }
 
-.container , .container1 {
+.container1 {
 	width:95%;
 	margin: auto;
 }
 /*typogoraphy*/
+
 h1 {
 	font-weight: 300;
 	font-size:2.0rem;
-	margin-top: 0;
+	padding-top: 2.5em;
 	font-family: Century Gothic;
 	letter-spacing: 5px;
+	
 }
 
 .title{
@@ -200,7 +202,7 @@ nav a:focus {
 	background-color: #ADD8E6;
 	padding: 5em;
 	width: 100vw;
-	margin-left: -2.5%;
+	margin-left: 0em;
 	margin-top: 8.5%;
 	outline: 2px solid grey;
 	outline-offset: -3em;
@@ -469,7 +471,6 @@ background-color:green;
 
 div
 {
-	display:inline-block;
 	width:100px;
 	height:100px;
 	background-color:white;
