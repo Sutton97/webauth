@@ -88,7 +88,7 @@ function check(){
 	var question3 = document.quiz.question3.value;
 	var correct = 0;
 	
-	if (question1 == "+£50" || "-£50"){
+	if (question1 == "+£50"){
 		correct++;
 	}
 	
@@ -99,7 +99,7 @@ function check(){
 	if(question3 == "Yes"){
 		correct++;
 	}
-	var messages = ["Most definitley a Shopaholic!", "You're on your way", "You're not a Shopaholic!!"];
+	var messages = ["Most definitley a Shopaholic!", "You're on your way!", "You're not a Shopaholic!"];
 	var range;
 	
 	if(correct < 1){
