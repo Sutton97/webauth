@@ -99,6 +99,7 @@ function check(){
 	if(question3 == "Yes"){
 		correct++;
 	}
+	var pictures = ["assets/shop.png", "assets/exclamation.png","assets/cross.png"];
 	var messages = ["Most definitley a Shopaholic!", "You're on your way!", "You're not a Shopaholic!"];
 	var range;
 	
@@ -115,7 +116,7 @@ function check(){
 	}
 	
 	document.getElementById("after-submit").style.visibility = "visible";
-	
+	document.getElementById("picture").src= pictures[range];
 	document.getElementById("messages").innerHTML = messages[range];
 	//document.getElementById("number-correct").innerHTML = "You got " + correct + " correct";
 }

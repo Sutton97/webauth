@@ -506,7 +506,56 @@ div
 }
 
 /*QUIZ*/
+#quiz{
+	margin-left: 10em;
+	margin-top: 75px;
+	background: #d2def2;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+}
+
+input {
+	margin-bottom: 20px;
+}
+#button4 {
+	border: black;
+	border-radius: 5px;
+	padding:10px;
+	color: black;
+	background: white;
+	font-size: 14px;
+	margin-top: 15px;
+	transition-duration: .5s;
+}
+
+#button4:hover{
+	background:grey;
+	color: white;
+	border: black;
+	border-radius: 5px;
+	cursor: pointer;
+}
 
 #after-submit{
+	
 	visibility: hidden;
+	margin-top: 75px;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	height: 529px;
+	border-radius: 20px;
+	border: black;
+	float: right;
+	margin-right: 10em;
+	font-size: 30px;
+	background: #F6EEC0;
 }
+
+#picture {
+	width: 10em;
+	height: 10em;
+}
+
+
