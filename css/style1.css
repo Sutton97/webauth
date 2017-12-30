@@ -504,3 +504,9 @@ div
 	font-size:2em;
 	text-align:center;
 }
+
+/*QUIZ*/
+
+#after-submit{
+	visibility: hidden;
+}

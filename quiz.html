@@ -24,10 +24,34 @@
 	<section class="home-area">
 	<div class ="container"></div>
 		<h1 class ="title"> Quiz
-			<span>Find out what style suitys you best! </span>
+			<span>Are you a Shopaholic?</span>
 		</h1>
 	</div>
 	
+	<form id ="quiz" name="quiz">
+	
+	<p>How much do you spend on clothes per month?</p>
+	<input type ="radio" id ="multi" name="question1" value ="-£10">Less than £10<br>
+	<input type ="radio" id ="multi" name="question1" value ="-£25">Less than £25<br>
+	<input type ="radio" id ="multi" name="question1" value ="-£50"> Less than £50<br>
+	<input type ="radio" id ="multi" name="question1" value ="£50+">More than £50<br>
+	
+	<p>Do you spend more than you earn?</p>
+	<input type ="radio" id ="multi" name="question2" value ="Yes">Yes<br>
+	<input type ="radio" id ="multi" name="question2" value ="No">Never!<br>
+	
+	<p>Do you enjoy window shopping?</p>
+	<input type ="radio" id ="multi" name="question3" value ="Yes">Definitley<br>
+	<input type ="radio" id ="multi" name="question3" value ="No">Boring<br>
+	
+	<input id ="button4" type ="button" value="Done!" onclick ="check();">
+	
+	</form>
+	
+	<div id ="after-submit">
+	<p id = "messages"></p>
+	<!--<p id ="number-correct"></p>-->
+	</div>
 	
 </body>
 </html>

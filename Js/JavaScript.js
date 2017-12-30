@@ -41,7 +41,7 @@ $('#myDropdown a').click(function(){
 }//leave
 
 
-//Customiser
+//CUSTOMISER
 window.onload = init;
 var img;
 function init() 
@@ -79,4 +79,43 @@ function pinkFunction(){
 	console.log("pink");
 	img.src = "assets/scentpink1"+ ".jpeg";
 }
-//add purple and pink
+
+
+//QUIZ
+function check(){
+	var question1 = document.quiz.question1.value;
+	var question2 = document.quiz.question2.value;
+	var question3 = document.quiz.question3.value;
+	var correct = 0;
+	
+	if (question1 == "+£50" || "-£50"){
+		correct++;
+	}
+	
+	if(question2 == "Yes"){
+		correct++;
+	}
+	
+	if(question3 == "Yes"){
+		correct++;
+	}
+	var messages = ["Most definitley a Shopaholic!", "You're on your way", "You're not a Shopaholic!!"];
+	var range;
+	
+	if(correct < 1){
+		range = 2;
+	}
+	
+	if(correct > 0 && correct < 3){
+		range = 1;
+	}
+	
+	if(correct > 2) {
+		range = 0;
+	}
+	
+	document.getElementById("after-submit").style.visibility = "visible";
+	
+	document.getElementById("messages").innerHTML = messages[range];
+	//document.getElementById("number-correct").innerHTML = "You got " + correct + " correct";
+}
