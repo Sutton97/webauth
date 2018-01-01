@@ -11,7 +11,7 @@ function getSelectValue()
 	
 }
 
-//CUSTOMISER
+//SCENT CUSTOMISER
 window.onload = init;
 var img;
 function init() 
@@ -49,6 +49,39 @@ function pinkFunction(){
 	console.log("pink");
 	img.src = "assets/scentpink1"+ ".jpeg";
 }
+
+//CANDLE CUSTOMISER
+/*window.onload = init;
+var img1;
+function init() 
+{
+	console.log("candle");
+	var black = document.getElementById("black");
+	var red1 = document.getElementById("red1");
+	var pink1 = document.getElementById("pink1");
+	
+	img = document.getElementById("image");
+	black.onclick = blackFunction;
+	red.onclick = red1Function;
+	pink.onclick = pink1Function;
+	
+	console.log(black,red,pink);
+}
+function blackFunction(){
+	console.log("black");
+	img.src = "assets/blackcandle"+ ".jpg";
+}
+	
+function red1Function(){
+	console.log("red");
+	img.src = "assets/redcandle"+ ".jpg";
+}
+
+function pink1Function(){
+	console.log("pink");
+	img.src = "assets/pinkcandle"+ ".jpg";
+}
+*/
 
 
 //QUIZ

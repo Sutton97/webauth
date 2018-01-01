@@ -428,18 +428,20 @@ background-color:green;
 	
 }
 
-/*GIFT CUSTOMISER*/
+/*SCENT CUSTOMISER*/
 
 div
 {
 	background-color:white;
 }
-/*the image and div have a mix-blend-mode of multiply, this multiplies the image colour and div colour together for the final colour*/
+
 .image
 {	
 	padding-top: 5em;
 	width:23em;
 	height:26em;
+	left: -12em;
+    position: relative;
 }
 
 #blue{
@@ -447,6 +449,10 @@ div
 	font-size:2em;
 	text-align:center;
 	cursor: pointer;
+	width: 5em;
+    position: relative;
+    left: 25em;
+	top: -8em;
 }
 
 #red{
@@ -454,19 +460,81 @@ div
 	font-size:2em;
 	text-align:center;
 	cursor: pointer;
+	width: 5em;
+    position: relative;
+    left: 25em;
+	top: -8em;
 }
 
 #purple{
-	background-color:#3b0b30;	
+	background-color:#3b0b30;
+	color: white;	
 	font-size:2em;
 	text-align:center;
 	cursor: pointer;
+	width: 5em;
+    position: relative;
+    left: 25em;
+	top: -8em;
 }
 #pink {
 	background-color:#FFB6C1;	
 	font-size:2em;
 	text-align:center;
 	cursor: pointer;
+	width: 5em;
+    position: relative;
+    left: 25em;
+	top: -8em;
+}
+
+/*CANDLE CUSTOMISER*/
+
+div
+{
+	background-color:white;
+}
+
+.image1{	
+	padding-top: 5em;
+	width:23em;
+	height:26em;
+	left: -12em;
+    position: relative;
+}
+
+#black{
+	background-color:black;	
+	color:white;
+	font-size:2em;
+	text-align:center;
+	cursor: pointer;
+	width: 5em;
+    position: relative;
+    left: 25em;
+	top: -8em;
+}
+
+#red1{
+	background-color:#d2204d;	
+	font-size:2em;
+	text-align:center;
+	cursor: pointer;
+	width: 5em;
+    position: relative;
+    left: 25em;
+	top: -8em;
+}
+
+#pink1 {
+	background-color:#FFB6C1;	
+	font-size:2em;
+	text-align:center;
+	cursor: pointer;
+	width: 5em;
+    position: relative;
+    left: 25em;
+	top: -8em;
 }
 
 /*QUIZ*/
