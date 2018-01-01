@@ -292,7 +292,7 @@ nav a:focus {
 }
 
 
-/* mens page */
+/* MENS PAGE */
 .men-item {
 	margin:0;
 	position: relative;
@@ -300,6 +300,21 @@ nav a:focus {
 }
 
 .men-item img {
+	display: block;
+	height:20em;
+	width: 18em;
+	border: 2px solid grey;
+	margin-top'; 3em;
+}
+
+/* WOMENS PAGE */
+.woman-item {
+	margin:0;
+	position: relative;
+	display: inline-block;
+}
+
+.woman-item img {
 	display: block;
 	height:20em;
 	width: 18em;
