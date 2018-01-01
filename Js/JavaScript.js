@@ -1,5 +1,3 @@
-
-
 //WINDOW LOAD
 window.onload=function(){
 function getSelectValue()
@@ -50,12 +48,8 @@ function pinkFunction(){
 	img.src = "assets/scentpink1"+ ".jpeg";
 }
 
-//CANDLE CUSTOMISER
-window.onload = init;
-var img1;
-function init() 
 {
-	console.log("candle");
+console.log("candle");
 	var black = document.getElementById("black");
 	var red1 = document.getElementById("red1");
 	var pink1 = document.getElementById("pink1");
@@ -81,7 +75,6 @@ function pink1Function(){
 	console.log("pink");
 	img.src = "assets/pinkcandle"+ ".jpg";
 }
-
 
 
 //QUIZ
