@@ -28,6 +28,18 @@ function init()
 	pink.onclick = pinkFunction;
 	
 	console.log(blue,red,purple,pink);
+	
+	console.log("candle");
+	var black = document.getElementById("black");
+	var red1 = document.getElementById("red1");
+	var pink1 = document.getElementById("pink1");
+	
+	img = document.getElementById("image1");
+	black.onclick = blackFunction;
+	red1.onclick = red1Function;
+	pink1.onclick = pink1Function;
+	
+	console.log(black,red1,pink1);
 }
 function blueFunction(){
 	console.log("blue");
@@ -49,19 +61,7 @@ function pinkFunction(){
 	img.src = "assets/scentpink1"+ ".jpeg";
 }
 
-{
-console.log("candle");
-	var black = document.getElementById("black");
-	var red1 = document.getElementById("red1");
-	var pink1 = document.getElementById("pink1");
-	
-	img = document.getElementById("image1");
-	black.onclick = blackFunction;
-	red1.onclick = red1Function;
-	pink1.onclick = pink1Function;
-	
-	console.log(black,red1,pink1);
-}
+
 function blackFunction(){
 	console.log("black");
 	img.src = "assets/blackcandle"+ ".jpg";
