@@ -10,9 +10,10 @@ function getSelectValue()
 }
 */
 
-//SCENT CUSTOMISER
+//SCENT & CANDLE CUSTOMISER
 window.onload = init;
 var img;
+var img2;
 function init() 
 {
 	console.log("scent");

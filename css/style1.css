@@ -430,111 +430,148 @@ background-color:green;
 
 /*SCENT CUSTOMISER*/
 
-div
+#scentsect
 {
-	background-color:white;
+	background-color: white;
+    width: 27em;
+	height: 26em;
+    right: -50em;
+    top: -21.5em;
+    position: relative;
+	border: 2px solid grey;
 }
 
-.image
-{	
-	padding-top: 5em;
+
+}
+img{
+	top: 5em;
 	width:23em;
 	height:26em;
 	left: -12em;
     position: relative;
+	border: 2px solid grey;
+}
+.image
+{	
+	top: 5em;
+	width:23em;
+	height:26em;
+	left: -12em;
+    position: relative;
+	border: 2px solid grey;
 }
 
 #blue{
 	background-color:#ADD8E6;	
-	font-size:2em;
-	text-align:center;
-	cursor: pointer;
-	width: 5em;
+	font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    width: 5em;
+    height: 2em;
     position: relative;
-    left: 25em;
-	top: -8em;
+    left: 37.5em;
+    top: -21em;
+    padding-top: 7px;
 }
 
 #red{
 	background-color:#d2204d;	
-	font-size:2em;
-	text-align:center;
-	cursor: pointer;
-	width: 5em;
+	font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    width: 5em;
+    height: 2em;
     position: relative;
-    left: 25em;
-	top: -8em;
+    left: 37.5em;
+    top: -20em;
+    padding-top: 7px;
 }
 
 #purple{
 	background-color:#3b0b30;
-	color: white;	
-	font-size:2em;
-	text-align:center;
-	cursor: pointer;
-	width: 5em;
+	font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    width: 5em;
+    height: 2em;
     position: relative;
-    left: 25em;
-	top: -8em;
+    left: 43.5em;
+    top: -25em;
+    padding-top: 7px;
 }
 #pink {
 	background-color:#FFB6C1;	
-	font-size:2em;
-	text-align:center;
-	cursor: pointer;
-	width: 5em;
+	font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    width: 5em;
+    height: 2em;
     position: relative;
-    left: 25em;
-	top: -8em;
+    left: 43.5em;
+    top: -24em;
+    padding-top: 7px;
 }
 
 /*CANDLE CUSTOMISER*/
-
-div
+#scentsect1
 {
-	background-color:white;
+	background-color: white;
+    width: 27em;
+	height: 26em;
+    right: -50.3em;
+    top: -50.5em;
+    position: relative;
+	border: 2px solid grey;
 }
 
+
 .image1{	
-	padding-top: 5em;
+	top: -24em;
 	width:23em;
 	height:26em;
 	left: -12em;
     position: relative;
+	border: 2px solid grey;
 }
 
 #black{
 	background-color:black;	
-	color:white;
-	font-size:2em;
-	text-align:center;
-	cursor: pointer;
-	width: 5em;
+	color: white;
+	font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    width: 5em;
+    height: 2em;
     position: relative;
-    left: 25em;
-	top: -8em;
+    left: 36.5em;
+    top: -41em;
+    padding-top: 7px;
 }
 
 #red1{
 	background-color:#d2204d;	
-	font-size:2em;
-	text-align:center;
-	cursor: pointer;
-	width: 5em;
+	font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    width: 5em;
+    height: 2em;
     position: relative;
-    left: 25em;
-	top: -8em;
+    left: 43.5em;
+    top: -43em;
+    padding-top: 7px;
 }
-
 #pink1 {
 	background-color:#FFB6C1;	
 	font-size:2em;
-	text-align:center;
-	cursor: pointer;
-	width: 5em;
+	font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    width: 5em;
+    height: 2em;
     position: relative;
-    left: 25em;
-	top: -8em;
+    left: 40em;
+    top: -42em;
+    padding-top: 7px;
 }
 
 /*QUIZ*/
@@ -589,5 +626,3 @@ input {
 	width: 10em;
 	height: 10em;
 }
-
-
