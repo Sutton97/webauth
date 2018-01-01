@@ -34,7 +34,7 @@ function init()
 	var red1 = document.getElementById("red1");
 	var pink1 = document.getElementById("pink1");
 	
-	img = document.getElementById("image1");
+	img2 = document.getElementById("image1");
 	black.onclick = blackFunction;
 	red1.onclick = red1Function;
 	pink1.onclick = pink1Function;
@@ -64,17 +64,17 @@ function pinkFunction(){
 
 function blackFunction(){
 	console.log("black");
-	img.src = "assets/blackcandle"+ ".jpg";
+	img2.src = "assets/blackcandle"+ ".jpg";
 }
 	
 function red1Function(){
 	console.log("red");
-	img.src = "assets/redcandle"+ ".jpg";
+	img2.src = "assets/redcandle"+ ".jpg";
 }
 
 function pink1Function(){
 	console.log("pink");
-	img.src = "assets/pinkcandle"+ ".jpg";
+	img2.src = "assets/pinkcandle"+ ".jpg";
 }
 
 
