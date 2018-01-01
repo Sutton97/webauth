@@ -51,7 +51,7 @@ function pinkFunction(){
 }
 
 //CANDLE CUSTOMISER
-/*window.onload = init;
+window.onload = init;
 var img1;
 function init() 
 {
@@ -60,12 +60,12 @@ function init()
 	var red1 = document.getElementById("red1");
 	var pink1 = document.getElementById("pink1");
 	
-	img = document.getElementById("image");
+	img = document.getElementById("image1");
 	black.onclick = blackFunction;
-	red.onclick = red1Function;
-	pink.onclick = pink1Function;
+	red1.onclick = red1Function;
+	pink1.onclick = pink1Function;
 	
-	console.log(black,red,pink);
+	console.log(black,red1,pink1);
 }
 function blackFunction(){
 	console.log("black");
@@ -81,7 +81,7 @@ function pink1Function(){
 	console.log("pink");
 	img.src = "assets/pinkcandle"+ ".jpg";
 }
-*/
+
 
 
 //QUIZ
