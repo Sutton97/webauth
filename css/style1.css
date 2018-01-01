@@ -464,6 +464,8 @@ img{
 #blue{
 	background-color:#ADD8E6;	
 	font-size: 1.5em;
+	font-family: Snell Roundhand;
+	font-style:italic;
     text-align: center;
     cursor: pointer;
     width: 5em;
@@ -477,6 +479,8 @@ img{
 #red{
 	background-color:#d2204d;	
 	font-size: 1.5em;
+	font-family: Snell Roundhand;
+	font-style:italic;
     text-align: center;
     cursor: pointer;
     width: 5em;
@@ -490,6 +494,8 @@ img{
 #purple{
 	background-color:#3b0b30;
 	font-size: 1.5em;
+	font-family: Snell Roundhand;
+	font-style:italic;
     text-align: center;
     cursor: pointer;
     width: 5em;
@@ -498,11 +504,14 @@ img{
     left: 43.5em;
     top: -25em;
     padding-top: 7px;
+	color: white;
 }
 #pink {
 	background-color:#FFB6C1;	
 	font-size: 1.5em;
     text-align: center;
+	font-family: Snell Roundhand;
+	font-style:italic;
     cursor: pointer;
     width: 5em;
     height: 2em;
@@ -538,19 +547,23 @@ img{
 	background-color:black;	
 	color: white;
 	font-size: 1.5em;
+	font-family: Snell Roundhand;
+	font-style:italic;
     text-align: center;
     cursor: pointer;
     width: 5em;
-    height: 2em;
+    height: 3em;
     position: relative;
-    left: 36.5em;
-    top: -41em;
+    left: 40.5em;
+    top: -37.5em;
     padding-top: 7px;
 }
 
 #red1{
 	background-color:#d2204d;	
 	font-size: 1.5em;
+	font-family: Snell Roundhand;
+	font-style:italic;
     text-align: center;
     cursor: pointer;
     width: 5em;
@@ -564,13 +577,15 @@ img{
 	background-color:#FFB6C1;	
 	font-size:2em;
 	font-size: 1.5em;
+	font-family: Snell Roundhand;
+	font-style:italic;
     text-align: center;
     cursor: pointer;
     width: 5em;
     height: 2em;
     position: relative;
-    left: 40em;
-    top: -42em;
+    left: 37.5em;
+    top: -45em;
     padding-top: 7px;
 }
 
