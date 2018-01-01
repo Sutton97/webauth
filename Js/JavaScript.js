@@ -1,4 +1,4 @@
-//WINDOW LOAD
+/*WINDOW LOAD
 window.onload=function(){
 function getSelectValue()
 {
@@ -8,6 +8,7 @@ function getSelectValue()
 	getSelectValue();	
 	
 }
+*/
 
 //SCENT CUSTOMISER
 window.onload = init;
