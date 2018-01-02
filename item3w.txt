@@ -29,13 +29,13 @@
 	
 <!-- IMAGE-->
 	<div class ="item">
-		<img src="assets/men01.jpg">
+		<img src="assets/woman02.jpg">
 	</div>
 	
 	<div id ="container2">
-		<h1> Mens Burgendy T.Shirt </h1>
+		<h1> Patterned Womens Top </h1>
 		<p> Size: S M L XL XXL </p>
-		<p> Price: £65 </p>
+		<p> Price: £45 </p>
 	</div>
 <!-- DROP DOWN BUTTON -->
 	<a href ="" class="button1 button1-small">Buy now</a>
@@ -55,10 +55,6 @@
 			
 		getSelectValue();
 	</script>
-	
-	<footer>
-	<div id ="footer"></div>
-	</footer>
 	
 	</body>
 	</html>
