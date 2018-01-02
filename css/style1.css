@@ -18,6 +18,8 @@ img {
 .logo{
 	width:15rem;
 	height:13rem;
+	position: relative;
+    left: 7em;
 }
 
 .container1 {
