@@ -322,6 +322,7 @@ nav a:focus {
 	margin-top'; 3em;
 }
 
+
 .item img{
 	float: left;
 	left:5em;
@@ -655,4 +656,36 @@ input {
 #picture {
 	width: 10em;
 	height: 10em;
+}
+
+.basket {
+	height: 4em;
+    width: 3.5em;
+    top: -8.5em;
+    position: relative;
+    left: 25em;
+}
+
+.help {
+	height: 3.5em;
+    width: 3.5em;
+    position: relative;
+    top: -8.8em;
+    left: 24.5em;
+}
+
+.facebook {
+	height: 3.5em;
+    width: 3.5em;
+    position: relative;
+    top: -8.8em;
+    left: 24.5em;
+}
+
+.twitter{
+	height: 3em;
+    width: 3em;
+    position: relative;
+    top: -8.9em;
+    left: 24.5em;
 }
