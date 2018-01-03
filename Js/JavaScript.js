@@ -119,5 +119,4 @@ function check(){
 	//document.getElementById("number-correct").innerHTML = "You got " + correct + " correct";
 }
 
-//BASKET
 
