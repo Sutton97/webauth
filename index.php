@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="css/style1.css">
  <script src="Js/JavaScript.js"></script>
