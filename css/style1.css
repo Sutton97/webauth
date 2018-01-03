@@ -727,6 +727,16 @@ input {
     left: 24.5em;
 }
 
+#contact {
+	border: 2px solid black;
+    border-radius: 12px;
+    padding: 5em;
+    width: 35em;
+    position: relative;
+    top: 5em;
+    left: 24em;
+	margin-bottom: 10em;
+}
 /*BASKET*/
 
 
