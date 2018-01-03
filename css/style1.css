@@ -1,8 +1,4 @@
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
-}
+
 
 *{
 	box-sizing: border-box;
@@ -55,6 +51,13 @@ h1 {
 	display: block;
 	font-size: .5em;
 }
+
+/*@media(min-width:60rem){
+	.title{
+		font-size:3rem;
+	}
+} */
+
 
 /*BUTTONS*/
 .button1 {
@@ -116,7 +119,14 @@ h1 {
 	border-color: #ooff6c;
 }
 
-/* HEADER */
+/*@media(min-width: 60rem){
+	.button{
+		font-size: 1.5rem;
+	}
+}*/
+
+
+/* header */
 header{
 	position:absolute;
 	left:0;
@@ -124,53 +134,41 @@ header{
 	margin-top: 1em;
 	margin: 1em;
 }
-/* NAVIGATION */
 
 nav ul {
 	margin: 0;
-	width: 80%;
 	padding: 0;
 	list-style: none;
 }
-nav ul li {
-	list-style: none;
+
+nav li {
 	display: inline-block;
-	padding: 20px;
-}
-nav ul li:hover{
-	background:grey;
+	margin: 1em;
 }
 
-nav ul li a {
-	color: #fff;
+nav a {
+	font-weight: 900;
 	text-decoration: none;
+	text-transform: uppercase;
 	font-size: .8rem;
+	padding: .5em;
+	color: #000000;
 }
 
-
-.toggle{
-	width: 100%;
-	padding: 10px 20px;
-	background: grey;
-	text-align: left;
-	box-sizing: border-box;
-	color: #fff;
-	font-size: 25px;
-	display: none;
+nav a:hover,
+nav a:focus {
+	color: #DDD;
 }
 
-@media only screen and(max-width: 768px){
-	.toggle{
-		display: block;
+/*@media(min-width:60rem){
+	.logo {
+		float: left;
 	}
-	ul{
-		width: 100%:
+	
+	nav {
+		float: right;
 	}
-	ul li{
-		display: block;
-		text-align: center;
-	}
-}
+	} */
 
 /*home area */
 .home-area{
@@ -180,7 +178,7 @@ nav ul li a {
 	padding-top: 25em;
 	height: 25rem;
 }
-/*WOMENS */
+/*womans page */
 .home-areaw{
 	background-image: url('../assets/stripes.jpg');
 	background-size:cover;
@@ -188,7 +186,7 @@ nav ul li a {
 	padding: 10em 0;
 	height: 25rem;
 }
-/* MENS */
+/* mens page */
 .home-aream{
 	background-image: url('../assets/stripes.jpg');
 	background-size:cover;
@@ -197,6 +195,12 @@ nav ul li a {
 	height: 25rem;
 }
 
+/*@media (min-width: 60rem){
+	.home-area{
+		height: 100vh;
+		padding-top: 35vh
+	}
+}*/
 
 .home-text-box {
 	background-color: #ADD8E6;
@@ -231,7 +235,7 @@ nav ul li a {
 	}
 }*/
 
-@media only screen and(min-width: 60rem) {
+/*@media(min-width: 60rem) {
 	h1 {
 		font-size:2.5rem;
 	}
