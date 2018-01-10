@@ -131,17 +131,7 @@ function check_info(){
 		}
 	}
 //LOCAL STORAGE
-function local(){
-	
-       if(localStorage.getItem('scentColor')!=null)
-		   img.src = localStorage.getItem('scentColor');
-	 if(localStorage.getItem('candleColor')!=null)
-		   img2.src = localStorage.getItem('candleColor');
-}
-
-//GEO LOCATION
 var x = document.getElementById("demo");
-
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition, showError);
@@ -151,8 +141,22 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude;
+    var lat = position.coords.latitude;
+    var lon = position.coords.longitude;
+    var latlon = new google.maps.LatLng(lat, lon)
+    var mapholder = document.getElementById('mapholder')
+    mapholder.style.height = '250px';
+    mapholder.style.width = '500px';
+
+    var myOptions = {
+    center:latlon,zoom:14,
+    mapTypeId:google.maps.MapTypeId.ROADMAP,
+    mapTypeControl:false,
+    navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
+    }
+    
+    var map = new google.maps.Map(document.getElementById("mapholder"), myOptions);
+    var marker = new google.maps.Marker({position:latlon,map:map,title:"You are here!"});
 }
 
 function showError(error) {
@@ -171,14 +175,3 @@ function showError(error) {
             break;
     }
 }
-
-function showPosition(position) {
-    var latlon = position.coords.latitude + "," + position.coords.longitude;
-
-    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=
-    "+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_:KEY";
-
-    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
-}
-
-
