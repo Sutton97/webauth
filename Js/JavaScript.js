@@ -133,9 +133,12 @@ function check_info(){
 //LOCAL STORAGE
 function local(){
 	
-        img.src = localStorage.getItem('scentColor');
-        img2.src = localStorage.getItem('candleColor');
-	
+       if(localStorage.getItem('scentColor')!=null)
+		   img.src =
+	   localStorage.getItem('scentColor');
+	 if(localStorage.getItem('scentColor')!=null)
+		   img2.src =
+	   localStorage.getItem('scentColor');
 }
 
 
