@@ -241,7 +241,8 @@ nav a:focus {
 	width: 18em;
 	border: 2px solid grey;
 	position: relative;
-	left:0em
+	left:0em;
+	top: -3em;
 }
 
 
@@ -311,6 +312,7 @@ nav a:focus {
 	padding: 1px;
 	position: relative;
 	display: inline-block;
+	top:0em;
 }
 
 #container2 {
