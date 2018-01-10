@@ -34,19 +34,36 @@
 </header>
 	<!-- top section -->
 	<section class="home-area">
-		<h1 class ="title"> Your style, Teds designs.
-			<span> Shop for your latest fashion! </span>
+		<h1 class ="title"> Geo-Location
+			<span> Where we're based! </span>
 		</h1>
 		<!--<a href ="" class="button1 button1-small">Shop now</a>-->
 	</div>
 	</section>
 	
-
-
-<p id="demo">Click the button to get your position.</p>
-
-<button onclick="getLocation()">Try It</button>
-
-<div id="mapholder"></div>
-
-<script src="https://maps.google.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU"></script>
+	<div id="map">
+	
+	</div>
+	
+	<script>
+		function initMap(){
+			var location = {lat: -25.363, lng: 131.044};
+			var map = new google.maps.Map(document.getElementById("map"),
+			{zoom: 4, center: location});
+			var marker = new google.maps.Marker({
+				position: location,
+				map: map
+			});
+		}
+		
+		
+	</script>
+	
+	<script async defer src =
+	"https://maps.googleapis.com/maps/api/js?key=AIzaSyAxxaEsjgpC9bt7Db8DQHa9PHus8WhWU8Y&callback=initMap">
+	
+	</script>
+	
+	
+	</body>
+</html>
