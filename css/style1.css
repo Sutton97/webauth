@@ -2,9 +2,6 @@ head {
 lang="en";	
 }
 
-*{
-	box-sizing: border-box;
-}
 
 body {
 	margin: 0;
@@ -23,6 +20,7 @@ img {
 	height:13rem;
 	position: relative;
     left: 7em;
+	top: 0em;
 }
 
 .container1 {
@@ -171,7 +169,7 @@ nav a:focus {
 	background-size:cover;
 	background-position: center;
 	padding-top: 25em;
-	height: 25rem;
+	height: 0rem;
 
 }
 /*womans page */
@@ -240,6 +238,8 @@ nav a:focus {
 	height:20em;
 	width: 18em;
 	border: 2px solid grey;
+	position: relative;
+	left:0em
 }
 
 
@@ -278,6 +278,8 @@ nav a:focus {
 	height:20em;
 	width: 18em;
 	border: 2px solid grey;
+	position: relative;
+    left: 0em;
 }
 
 /* WOMENS PAGE */
@@ -292,6 +294,8 @@ nav a:focus {
 	height:20em;
 	width: 18em;
 	border: 2px solid grey;
+	position: relative;
+    left: 0em;
 }
 
 
