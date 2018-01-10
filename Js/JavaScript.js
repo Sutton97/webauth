@@ -118,6 +118,21 @@ function check(){
 	document.getElementById("messages").innerHTML = messages[range];
 	//document.getElementById("number-correct").innerHTML = "You got " + correct + " correct";
 }
+//SIGN IN AND REGISTER
+function check_info(){
+		var username = document.getElementById('username').value;
+		var password = document.getElementById('password').value;
+		
+		if(username =="" || password =="" || password_confirmation==""){
+			alert('Please enter Username or Password');
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+//LOCAL STORAGE
+
 
 
 
