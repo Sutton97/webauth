@@ -33,7 +33,7 @@ h1 {
 	font-weight: 300;
 	font-size:2.0rem;
 	padding-top: 2.5em;
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 	letter-spacing: 5px;
 	
 }
@@ -42,8 +42,10 @@ h3 {
 	font-weight: 300;
 	font-size:2.0rem;
 	padding-top: 2em;
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 	letter-spacing: 5px;
+	top: -3em;
+    position: relative;
 	
 }
 
@@ -390,7 +392,7 @@ img{
 #blue{
 	background-color:#ADD8E6;	
 	font-size: 1.5em;
-	font-family: Snell Roundhand;
+	font-family: "Snell Roundhand";
 	font-style:italic;
     text-align: center;
     cursor: pointer;
@@ -405,7 +407,7 @@ img{
 #red{
 	background-color:#d2204d;	
 	font-size: 1.5em;
-	font-family: Snell Roundhand;
+	font-family: "Snell Roundhand";
 	font-style:italic;
     text-align: center;
     cursor: pointer;
@@ -420,7 +422,7 @@ img{
 #purple{
 	background-color:#3b0b30;
 	font-size: 1.5em;
-	font-family: Snell Roundhand;
+	font-family: "Snell Roundhand";
 	font-style:italic;
     text-align: center;
     cursor: pointer;
@@ -436,7 +438,7 @@ img{
 	background-color:#FFB6C1;	
 	font-size: 1.5em;
     text-align: center;
-	font-family: Snell Roundhand;
+	font-family: "Snell Roundhand";
 	font-style:italic;
     cursor: pointer;
     width: 5em;
@@ -471,7 +473,7 @@ img{
 	background-color:black;	
 	color: white;
 	font-size: 1.5em;
-	font-family: Snell Roundhand;
+	font-family: "Snell Roundhand";
 	font-style:italic;
     text-align: center;
     cursor: pointer;
@@ -479,14 +481,14 @@ img{
     height: 3em;
     position: relative;
     left: 40.5em;
-    top: -37.5em;
+    top: -40.5em;
     padding-top: 7px;
 }
 
 #red1{
 	background-color:#d2204d;	
 	font-size: 1.5em;
-	font-family: Snell Roundhand;
+	font-family: "Snell Roundhand";
 	font-style:italic;
     text-align: center;
     cursor: pointer;
@@ -494,14 +496,14 @@ img{
     height: 2em;
     position: relative;
     left: 43.5em;
-    top: -43em;
+    top: -47.7em;
     padding-top: 7px;
 }
 #pink1 {
 	background-color:#FFB6C1;	
 	font-size:2em;
 	font-size: 1.5em;
-	font-family: Snell Roundhand;
+	font-family: "Snell Roundhand";
 	font-style:italic;
     text-align: center;
     cursor: pointer;
@@ -509,7 +511,7 @@ img{
     height: 2em;
     position: relative;
     left: 37.5em;
-    top: -45em;
+    top: -50em;
     padding-top: 7px;
 }
 
@@ -642,6 +644,7 @@ form{
 	margin-top: 2em;
 	position: relative;
     left: 6em;
+	top: -5em;
 }
 
 #submit{
