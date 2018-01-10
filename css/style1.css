@@ -99,6 +99,7 @@ h3 {
 .button1-small:hover,.button1-small:focus {
 	background:#fffaef;
 	color: #232323;
+	border-color: #00ff6c;
 }
 
 .button3{
@@ -109,6 +110,7 @@ h3 {
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 12px;
+	border-color: black;
 	padding: .5em 1.5em;
 	color: white;
 }
@@ -116,7 +118,7 @@ h3 {
 .button3:hover{
 	background:#fffaef;
 	color: #232323;
-	border-color: #ooff6c;
+	border-color: #00ff6c;
 }
 
 /* HEADER */
@@ -276,7 +278,6 @@ nav a:focus {
 	height:20em;
 	width: 18em;
 	border: 2px solid grey;
-	margin-top: 3em;
 }
 
 /* WOMENS PAGE */
@@ -291,7 +292,6 @@ nav a:focus {
 	height:20em;
 	width: 18em;
 	border: 2px solid grey;
-	margin-top: 3em;
 }
 
 
@@ -616,7 +616,7 @@ input {
     padding-top: 2em;
     margin: 5em;
 	border-radius: 12px;
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 	letter-spacing: 5px;
 }
 .sign_in{
@@ -629,7 +629,7 @@ input {
     padding-top: 2em;
     margin: 5em;
 	border-radius: 12px;
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 	letter-spacing: 5px;
 }
 form{
