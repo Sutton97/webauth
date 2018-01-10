@@ -136,9 +136,9 @@ function local(){
        if(localStorage.getItem('scentColor')!=null)
 		   img.src =
 	   localStorage.getItem('scentColor');
-	 if(localStorage.getItem('scentColor')!=null)
+	 if(localStorage.getItem('candleColor')!=null)
 		   img2.src =
-	   localStorage.getItem('scentColor');
+	   localStorage.getItem('candleColor');
 }
 
 
