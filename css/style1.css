@@ -667,6 +667,7 @@ form{
 	position: relative;
     right: 24em;
 	bottom: -10.2em;
+	display: block;
 }
 
 #footer{
@@ -675,6 +676,6 @@ form{
 	background-color:#ADD8E6;
 	text-align: centre;
 	position: relative;
-    bottom: -30em;
+    bottom: -36em;
 	
 }
