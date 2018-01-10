@@ -71,7 +71,7 @@ function red1Function(){
 function pink1Function(){
 	console.log("pink");
 	img2.src = "assets/pinkcandle.jpg";
-        localStorage.setItem('candleColor', "assets/pinkcandle.jpeg");
+        localStorage.setItem('candleColor', "assets/pinkcandle.jpg");
         img.src = localStorage.getItem('scentColor');
         img2.src = localStorage.getItem('candleColor');
 	
