@@ -59,7 +59,7 @@ function pinkFunction(){
 function blackFunction(){
 	console.log("black");
 	img2.src = "assets/blackcandle.jpg";
-        localStorage.setItem('candleColor', "assets/blackcandle.jpeg");
+        localStorage.setItem('candleColor', "assets/blackcandle.jpg");
 }
 	
 function red1Function(){
