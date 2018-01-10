@@ -692,8 +692,14 @@ form{
 /*GEO-LOCATION*/
 
  #map {
-        height: 400px;
-        width: 80%;
-		margin: 5em;
-		left: 5em;
-       }
+    height: 400px;
+    width: 80%;
+	margin: 5em;
+	left: 5em;
+}
+
+#social {
+	position: relative;
+    right: 24em;
+	bottom: -9.2em;
+}
