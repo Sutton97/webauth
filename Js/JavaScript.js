@@ -1,15 +1,3 @@
-/*WINDOW LOAD
-window.onload=function(){
-function getSelectValue()
-{
-	var selectedValue = document.getElementById("drop").value;
-	console.log(selectedValue);
-	}	
-	getSelectValue();	
-	
-}
-*/
-
 //SCENT & CANDLE CUSTOMISER
 window.onload = init;
 var img;
@@ -36,6 +24,7 @@ function init()
 	var pink1 = document.getElementById("pink1");
 	
 	img2 = document.getElementById("image1");
+        local();
 	black.onclick = blackFunction;
 	red1.onclick = red1Function;
 	pink1.onclick = pink1Function;
@@ -44,38 +33,48 @@ function init()
 }
 function blueFunction(){
 	console.log("blue");
-	img.src = "assets/scentblue1"+ ".jpeg";
+	img.src = "assets/scentblue1.jpeg";
+        localStorage.setItem('scentColor', "assets/scentblue1.jpeg");
 }
 	
 function redFunction(){
 	console.log("red");
-	img.src = "assets/scentred1"+ ".jpeg";
+	img.src = "assets/scentred1.jpeg";
+        localStorage.setItem('scentColor', "assets/scentred1.jpeg");
 }
 
 function purpleFunction(){
 	console.log("purple");
-	img.src = "assets/scentpurple1"+ ".jpeg";
+	img.src = "assets/scentpurple1.jpeg";
+        localStorage.setItem('scentColor', "assets/scentpurple1.jpeg");
 }
 
 function pinkFunction(){
 	console.log("pink");
-	img.src = "assets/scentpink1"+ ".jpeg";
+	img.src = "assets/scentpink1.jpeg";
+        localStorage.setItem('scentColor', "assets/scentpink1.jpeg");
 }
 
 
 function blackFunction(){
 	console.log("black");
-	img2.src = "assets/blackcandle"+ ".jpg";
+	img2.src = "assets/blackcandle.jpg";
+        localStorage.setItem('candleColor', "assets/blackcandle.jpeg");
 }
 	
 function red1Function(){
 	console.log("red");
-	img2.src = "assets/redcandle"+ ".jpg";
+	img2.src = "assets/redcandle.jpg";
+        localStorage.setItem('candleColor', "assets/redcandle.jpeg");
 }
 
 function pink1Function(){
 	console.log("pink");
-	img2.src = "assets/pinkcandle"+ ".jpg";
+	img2.src = "assets/pinkcandle.jpg";
+        localStorage.setItem('candleColor', "assets/pinkcandle.jpeg");
+        img.src = localStorage.getItem('scentColor');
+        img2.src = localStorage.getItem('candleColor');
+	
 }
 
 
