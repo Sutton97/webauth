@@ -131,8 +131,12 @@ function check_info(){
 		}
 	}
 //LOCAL STORAGE
-
-
+function local(){
+	
+        img.src = localStorage.getItem('scentColor');
+        img2.src = localStorage.getItem('candleColor');
+	
+}
 
 
 
