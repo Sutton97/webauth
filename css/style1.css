@@ -39,6 +39,15 @@ h1 {
 	
 }
 
+h3 {
+	font-weight: 300;
+	font-size:2.0rem;
+	padding-top: 2.5em;
+	font-family: Century Gothic;
+	letter-spacing: 5px;
+	
+}
+
 .title{
 	font-size: 2.5rem;
 	margin-bottom: 1.5em;
@@ -728,7 +737,6 @@ input {
 }
 
 #contact {
-	border: 2px solid black;
     border-radius: 12px;
     padding: 5em;
     width: 35em;
@@ -738,75 +746,42 @@ input {
 	margin-bottom: 10em;
 	background: lightblue;
 }
-
-.login {
-	text-align: center;
-	padding: 50px 0 20px;
+.register{
+	width: 24em;
+	height: 28em;
+	background-color: lightgrey;
+	position: relative;
+float: right;
+    padding-top: 5em;
+    margin: 5em;
+	border-radius: 12px;
 }
-
-.container4{
-	width:20%;
-	height: 400px;
+.sign_in{
+	width: 24em;
+	height: 20em;
+	background-color: lightgrey;
+	position: relative;
+float:left;
+    padding-top: 2em;
+    margin: 5em;
+	border-radius: 12px;
+}
+.form{
+	position:center;
 	background: grey;
-	margin: 0 auto;
-	border: 2px solid black;
-	box-shadow: 0 15px 40px rgba(0,0,0,.5);
-}
-
-.container4 .left {
-	float: left;
 	width: 50%;
-	height: 400px;
-	background: url("bubble.jpeg");
-	background-size: cover;
-	box-sizing: border-box;
+    margin: 50px auto;
+	display: block;
 }
-
-.container .right {
-	width:100%;
-	padding: 80px 40px;
-	height: 400px;
-	box-sizing: border-box;
+#submit{
+	position:relative;
 }
-
-.formbox {
-	width:100%;
-	padding: 80px 40px;
-	height: 400px;
-	box-sizing: border-box;
-	background: #fff;
-}
-
-.formbox p {
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-	color: #a6af13;
-}
-
-.formbox input {
-	width: 100%;
-	margin-bottom: 20px;
-}
-
-.formbox input[type="text"],
-.formbox input[type="Password"]{
-	border: none;
-	border-bottom: 2px solid #a6af13;
-	outline: none;
-	height: 40px;
 	
+.password {
+	position:relative;
+	left: 10em;
 }
 
-.formbox input[type="text"]:focus,
-.formbox input[type="Password"]:focus{
-	border-bottom: 2px solid #262626;
-}
-
-.formbox input[type="submit"]{
-	border: none;
-	outline: none;
-	height: 40px;
-	background: lightblue;
-	cursor: pointer;
+#username {
+	position: center;
 }

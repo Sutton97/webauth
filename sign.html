@@ -39,107 +39,67 @@
 	</div>
 	</section>
 	
-	<div id ="wrapper">
-	<form method ="POST" action="account.html" onsubmit="return Validate()" name="vform">
-	<div>
-		<input type="text" name="username" class="textInput" placeholder="Username">
-		<div id = "name_error" class="val_error"</div>
-	</div>
-	<div>
-		<input type="email" name="email" class="textInput" placeholder="Email">
-		<div id = "email_error" class="val_error"</div>
-	</div>
-	<div>
-		<input type="password" name="password" class="textInput" placeholder="Password">
-	</div>
-	<div>
-		<input type="password" name="password_confirmation" class="textInput" placeholder="Password Confirmation">
-		<div id = "password_error" class="val_error"</div>
-	</div>
-	<div>
-		<input type="submit" value="Register" class="btn" name="Register">
-	</div>
+
+	<div class ="sign_in"
+		<h3> Sign-In</h3>
+	<form action="account.html" method="post" onsubmit="return check_info();">
+		<div id="user">
+		<input type="text" name="username" id="username" placeholder="Username"/>
+		</div>
+		
+		<div id = "password">
+		<input type="password" name="password" id="password" placeholder="Password"/>
+		</div>
+		
+		<div id="password_confirmation">
+		<input type="password" name="password_confirmation" placeholder="Password Confirmation">
+		</div>
+		<div id="submit">
+		<input type="submit" value="login" id="submit"/>
+		</div>
 	</form>
+	</div>
+	
+	
+	<div class ="register" 
+	<h3>Register</h3>
+	<form action="account.html" method="post" onsubmit="return check_info();">
+		<div id="user">
+		<input type="text" name="username" id="username" placeholder="Username"/>
+		</div>
+		
+		<div id="email">
+		<input type="email" name="email" id="email" placeholder="Email"/>
+		</div>
+		
+		<div id = "password">
+		<input type="password" name="password" id="password" placeholder="Password"/>
+		</div>
+		
+		<div id="password_confirmation">
+		<input type="password" name="password_confirmation" placeholder="Password Confirmation">
+		</div>
+		<div id="submit">
+		<input type="submit" value="login" id="submit"/>
+		</div>
+	</form>
+	</div>
+	
+	<script type ="tet/javascript">
+	function check_info(){
+		var username = document.getElementById('username').value;
+		var password = document.getElementById('password').value;
+		
+		if(username =="" || password =="" || password_confirmation==""){
+			alert('Please enter Username or Password');
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+	</script>
+	
+	
 	</body>
 	</html>
-	
-	<script type="text/javascript">
-	var username = document.forms["vform"]["username"];
-	var email = document.forms["vform"]["email"];
-	var password = document.forms["vform"]["password"];
-	var password_confirmation = document.forms["vform"]["password_confirmation"];
-	
-	var name_error = document.getElementById("name_error");
-	var email_error = document.getElementById("email_error");
-	var password_error = document.getElementById("password_error");
-	
-	username.addEventListener("blur", nameVerify, true);
-	email.addEventListener("blur", emailVerify, true);
-	password.addEventListener("blur", passwordVerify, true);
-	
-	//validation function
-	function Validate(){
-	
-	//username validation
-		if(username.value == ""){
-		username.style.border = "1px solid red";
-		name_error.textContent = "Username is required";
-		username.focus();
-		return false;
-		}
-	//email validation
-		if(email.value == ""){
-		email.style.border = "1px solid red";
-		email_error.textContent = "Email is required";
-		email.focus();
-		return false;
-		}
-	//password validation
-		if(password.value == ""){
-		password.style.border = "1px solid red";
-		password_error.textContent = "Password is required";
-		password.focus();
-		return false;
-	}
-	if (password.value!= password_confirmation.value){
-		password.style.border = "1px solid red";
-		password_confirmation.style.border = "1px solid red";
-		password_error,innerHTML = "The two passwords do not match";
-		return false;
-		
-	}
-	}
-	
-// event handler functions
-function nameVerify() {
-  if (username.value != "") {
-   username.style.border = "1px solid #5e6e66";
-   document.getElementById('username_div').style.color = "#5e6e66";
-   name_error.innerHTML = "";
-   return true;
-  }
-}
-function emailVerify() {
-  if (email.value != "") {
-  	email.style.border = "1px solid #5e6e66";
-  	document.getElementById('email_div').style.color = "#5e6e66";
-  	email_error.innerHTML = "";
-  	return true;
-  }
-}
-function passwordVerify() {
-  if (password.value != "") {
-  	password.style.border = "1px solid #5e6e66";
-  	document.getElementById('pass_confirm_div').style.color = "#5e6e66";
-  	document.getElementById('password_div').style.color = "#5e6e66";
-  	password_error.innerHTML = "";
-  	return true;
-  }
-  if (password.value === password_confirm.value) {
-  	password.style.border = "1px solid #5e6e66";
-  	document.getElementById('pass_confirm_div').style.color = "#5e6e66";
-  	password_error.innerHTML = "";
-  	return true;
-  }
-}
-	</script>

@@ -38,13 +38,38 @@
 		</h1>
 	</div>
 	</section>
-	
-	<form action="account.html" method="post">
-		username:<input type="text" name="username"/>
-		Password:<input type="password" name="password"/>
-		<input type="submit" value="login"/>
+	<div class ="container4"
+	<form action="account.html" method="post" onsubmit="return check_info();">
+		<div id="user">
+		<input type="text" name="username" id="username" placeholder="Username"/>
+		</div>
+		
+		<div id = "password">
+		<input type="password" name="password" id="password" placeholder="Password"/>
+		</div>
+		
+		<div id="password_confirmation">
+		<input type="password" name="password_confirmation" placeholder="Password Confirmation">
+		</div>
+		<div id="submit">
+		<input type="submit" value="login" id="submit"/>
+		</div>
 	</form>
-	
+	</div>
+	<script type ="tet/javascript">
+	function check_info(){
+		var username = document.getElementById('username').value;
+		var password = document.getElementById('password').value;
+		
+		if(username =="" || password =="" || password_confirmation==""){
+			alert('Please enter Username or Password');
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+	</script>
 	
 	
 	</body>
