@@ -1,4 +1,7 @@
-lang="en";
+head {
+lang="en";	
+}
+
 *{
 	box-sizing: border-box;
 }
