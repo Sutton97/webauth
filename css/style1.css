@@ -155,15 +155,7 @@ nav a:focus {
 	color: #DDD;
 }
 
-/*@media(min-width:60rem){
-	.logo {
-		float: left;
-	}
-	
-	nav {
-		float: right;
-	}
-	} */
+
 
 /*home area */
 .home-area{
@@ -190,13 +182,6 @@ nav a:focus {
 	padding: 10em 0;
 	height: 25rem;
 }
-
-/*@media (min-width: 60rem){
-	.home-area{
-		height: 100vh;
-		padding-top: 35vh
-	}
-}*/
 
 .home-text-box {
 	background-color: #ADD8E6;
@@ -525,6 +510,8 @@ img{
 	width: 400px;
 	border-radius: 20px;
 	float: left;
+	position: relative;
+    top: 2em;
 }
 
 input {
@@ -562,11 +549,16 @@ input {
 	margin-right: 10em;
 	font-size: 30px;
 	background: #F6EEC0;
+	position: relative;
+    right: -5em;
 }
 
 #picture {
 	width: 10em;
 	height: 10em;
+	position: relative;
+    left: 0em;
+	border: none;
 }
 
 /*ICCONS*/
@@ -675,18 +667,21 @@ form{
 	left: 5em;
 }
 
-#social {
-	position: relative;
-    right: 24em;
-	bottom: -10.2em;
-	display: block;
+
+.facebook{
+    height: 3em;
+    width: 3.2em;
+    position: relative;
+    top: -57.6em;
+    left: -14.5em;
+    border: none;
 }
 
-#footer{
-	height: 70px;
-	width: 100%;
-	background-color:#ADD8E6;
-	position: relative;
-    bottom: -36em;
-	
+.twitter{
+	height: 2.5em;
+    width: 2.5em;
+    position: relative;
+    top: -57.8em;
+    left: -14.5em;
+    border: none;
 }
