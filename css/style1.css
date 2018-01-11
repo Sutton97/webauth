@@ -673,17 +673,12 @@ form{
 	left: 10em;
 }
 
-	
-}
-
 /*GEO-LOCATION*/
 
  #map {
     height: 400px;
     width: 80%;
 	margin: 5em;
-	left: 5em;
-	position: relative;
 }
 
 .facebook{
