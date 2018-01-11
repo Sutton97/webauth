@@ -201,9 +201,9 @@ nav a:focus {
 .home-text-box {
 	background-color: #ADD8E6;
 	padding: 5em;
-	width: 100vw;
+	width: 74em;
 	margin-left: 0em;
-	margin-top: 8.5%;
+	margin-top: 7.5%;
 	outline: 2px solid grey;
 	outline-offset: -3em;
 	color: black;
@@ -242,7 +242,7 @@ nav a:focus {
 	border: 2px solid grey;
 	position: relative;
 	left:0em;
-	top: -3em;
+	top: 5em;
 }
 
 
@@ -576,6 +576,7 @@ input {
     top: -8.5em;
     position: relative;
     left: 25em;
+	border: none;
 }
 
 .help {
@@ -584,6 +585,7 @@ input {
     position: relative;
     top: -8.8em;
     left: 24.5em;
+	border: none;
 }
 
 .facebook {
@@ -592,6 +594,7 @@ input {
     position: relative;
     top: -8.8em;
     left: 24.5em;
+	border: none;
 }
 
 .twitter{
@@ -600,6 +603,7 @@ input {
     position: relative;
     top: -8.9em;
     left: 24.5em;
+	border: none;
 }
 /*CONTACT PAGE*/
 #contact {
