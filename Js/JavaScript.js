@@ -72,9 +72,6 @@ function pink1Function(){
 	console.log("pink");
 	img2.src = "assets/pinkcandle.jpg";
         localStorage.setItem('candleColor', "assets/pinkcandle.jpg");
-        img.src = localStorage.getItem('scentColor');
-        img2.src = localStorage.getItem('candleColor');
-	
 }
 
 
@@ -130,6 +127,14 @@ function check_info(){
 			return true;
 		}
 	}
+//LOCAL STORAGE
+function local(){
+	
+        img.src = localStorage.getItem('scentColor');
+        img2.src = localStorage.getItem('candleColor');
+	
+}
+
 //GEO-LOCATION
     function initMap() {
         var uluru = {lat: 51.508530, lng: -0.076132};

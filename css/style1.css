@@ -130,31 +130,50 @@ header{
 	margin: 1em;
 }
 
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+/*NAVIGATION*/
+
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display: center;
+	position: relative;
+	left: 11em;
+	color: black;
 }
 
-nav li {
-	display: inline-block;
-	margin: 1em;
+ul li {
+	float: left;
+	height: 40px;
+	width: 150px;
+	background: grey;
+	opacity: .7;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	margin-right: 2px;
+	font-weight: 2px;
 }
 
-nav a {
-	font-weight: 900;
+ul li a{
 	text-decoration: none;
-	text-transform: uppercase;
-	font-size: .8rem;
-	padding: .5em;
-	color: #000000;
+	color: black;
+	display: block;
+	font-size: 17px;
 }
 
-nav a:hover,
-nav a:focus {
-	color: #DDD;
+ul li a:hover{
+	background-color: lightblue;
 }
 
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+	position: relative;
+	right: 11em;
+}
 
 
 /*home area */
@@ -166,7 +185,7 @@ nav a:focus {
 	height: 0rem;
 
 }
-/*womans page */
+/* WOMAN */
 .home-areaw{
 	background-image: url('../assets/stripes.jpg');
 	background-size:cover;
@@ -174,7 +193,7 @@ nav a:focus {
 	padding: 10em 0;
 	height: 25rem;
 }
-/* mens page */
+/* MENS */
 .home-aream{
 	background-image: url('../assets/stripes.jpg');
 	background-size:cover;
@@ -654,7 +673,6 @@ form{
 	left: 10em;
 }
 
-#username {
 	
 }
 
@@ -684,4 +702,21 @@ form{
        top: -3.8em;
     left: 1.5em;
     border: none;
+}
+
+object{
+    width: 90%;
+    height: 50em;
+	position: relative;
+    top: 3em;
+    bottom: 3em;
+}
+
+
+/*DEMO*/
+
+#demo {
+	position: relative;
+	top: 4em;
+	padding-bottom: 5em;
 }
